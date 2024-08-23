@@ -1,8 +1,12 @@
 // import React from 'react'
 
+import Hero from "./components/Hero"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div className="sm:max-h-screen w-full">
+      <Hero/>
+    </div>
   )
 }
 
